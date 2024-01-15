@@ -20,4 +20,4 @@ steps:
     azureSubscription: 'Free Trial (f967f248-0f17-42cf-a12e-dc87670388f5)'
     appType: 'webAppLinux'
     appName: 'firstlearn'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '$(System.DefaultWorkingDirectory)/*.zip'
