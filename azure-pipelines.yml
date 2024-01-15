@@ -12,7 +12,7 @@ pool:
 steps:
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '$(build.sourcesDirectory)'
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
 - task: AzureWebApp@1
